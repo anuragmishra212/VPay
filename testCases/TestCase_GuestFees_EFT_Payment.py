@@ -88,7 +88,6 @@ class GuestFees_EFT(unittest.TestCase):
             "C:/Users/anurag.mishra.FPS/PycharmProjects/SMA_POM_UnitTestFramework/screenshot/7CompletionPage.png")
         TestResult = self.driver.find_element_by_xpath("//*[@id='page']/div/div[1]/h1").is_displayed()
         self.assertEqual(TestResult, True, "Transaction Failed")
-        print("test case completed")
 
     @classmethod
     def tearDownClass(cls):
